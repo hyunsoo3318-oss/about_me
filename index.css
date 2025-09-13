@@ -69,13 +69,32 @@ section h2 {
 }
 
 /* 기술스택 */
-#skills ul {
-  padding-left: 1.2rem;
+/* 기술스택 아이콘 정렬 & 스타일 */
+#skills .skills {
+  list-style: none;
+  padding: 0;
+  margin: 0;
 }
 
-#skills li {
-  margin-bottom: 0.5rem;
+#skills .skills li {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 0.8rem;
 }
+
+#skills .skills li img {
+  width: 28px;
+  height: 28px;
+  object-fit: contain;
+  border-radius: 4px;
+  flex: 0 0 28px;
+}
+
+#skills .skills li span {
+  font-weight: 600;
+}
+
 
 /* 취미 */
 #hobbies ul {
