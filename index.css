@@ -1,0 +1,105 @@
+/* styles.css */
+
+/* 전체 레이아웃 */
+body {
+  margin: 0;
+  font-family: "Noto Sans KR", Arial, sans-serif;
+  line-height: 1.6;
+  background-color: #f4f6f9;
+  color: #333;
+}
+
+/* 헤더 */
+header {
+  background: #2c3e50;
+  color: #fff;
+  padding: 1rem 2rem;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 1.4rem;
+}
+
+header nav ul {
+  list-style: none;
+  display: flex;
+  gap: 1rem;
+  padding: 0;
+  margin: 0.5rem 0 0;
+}
+
+header nav a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+header nav a:hover {
+  text-decoration: underline;
+}
+
+/* 섹션 공통 */
+section {
+  max-width: 800px;
+  margin: 2rem auto;
+  padding: 1.5rem;
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+section h2 {
+  margin-top: 0;
+  color: #2c3e50;
+  border-bottom: 2px solid #eee;
+  padding-bottom: 0.5rem;
+}
+
+/* 내 사진 */
+#photo img {
+  display: block;
+  max-width: 200px;
+  margin: 1rem auto;
+  border-radius: 50%;
+  border: 3px solid #ddd;
+}
+
+/* 기술스택 */
+#skills ul {
+  padding-left: 1.2rem;
+}
+
+#skills li {
+  margin-bottom: 0.5rem;
+}
+
+/* 취미 */
+#hobbies ul {
+  list-style: none;
+  padding: 0;
+}
+
+#hobbies li {
+  margin-bottom: 0.8rem;
+  padding-left: 1.5rem;
+  position: relative;
+}
+
+#hobbies li::before {
+  content: "⭐";
+  position: absolute;
+  left: 0;
+}
+
+/* 푸터 */
+footer {
+  text-align: center;
+  padding: 1rem;
+  background: #2c3e50;
+  color: #fff;
+  margin-top: 2rem;
+}
