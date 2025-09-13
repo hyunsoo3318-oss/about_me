@@ -1,6 +1,4 @@
 
-
-/* 전체 레이아웃 */
 body {
   margin: 0;
   font-family: "Noto Sans KR", Arial, sans-serif;
@@ -9,7 +7,6 @@ body {
   color: #333;
 }
 
-/* 헤더 */
 header {
   background: #2c3e50;
   color: #fff;
@@ -48,7 +45,6 @@ header nav a:hover {
   text-decoration: underline;
 }
 
-/* 섹션 공통 */
 section {
   max-width: 800px;
   margin: 2rem auto;
@@ -65,7 +61,6 @@ section h2 {
   padding-bottom: 0.5rem;
 }
 
-/* 내 사진 */
 #photo img {
   display: block;
   max-width: 200px;
@@ -74,8 +69,6 @@ section h2 {
   border: 3px solid #ddd;
 }
 
-/* 기술스택 */
-/* 기술스택 아이콘 정렬 & 스타일 */
 #skills .skills {
   list-style: none;
   padding: 0;
@@ -101,7 +94,6 @@ section h2 {
   font-weight: 600;
 }
 
-/* 기술스택 아이콘 크기 고정 */
 #skills ul {
   list-style: none;
   padding: 0;
@@ -116,14 +108,13 @@ section h2 {
 }
 
 #skills li img {
-  width: 100px;     /* 크기 강제 고정 */
+  width: 100px;    
   height: 200px;
   object-fit: contain;
-  display: block;  /* 깨진 이미지 공간 방지 */
+  display: block;  
   flex: 0 0 32px;
 }
 
-/* 취미 */
 #hobbies ul {
   list-style: none;
   padding: 0;
@@ -141,7 +132,7 @@ section h2 {
   left: 0;
 }
 
-/* 푸터 */
+
 footer {
   text-align: center;
   padding: 1rem;
