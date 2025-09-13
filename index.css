@@ -22,6 +22,7 @@ header {
 header h1 {
   margin: 0;
   font-size: 1.4rem;
+  text-align: center;
 }
 
 header nav ul {
@@ -30,6 +31,7 @@ header nav ul {
   gap: 1rem;
   padding: 0;
   margin: 0.5rem 0 0;
+  text-align: center;
 }
 
 header nav a {
