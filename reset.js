@@ -42,13 +42,4 @@ document.querySelectorAll("#skills li").forEach(item => {
   });
 });
 
-// -----------------------------
-// 4. Footer에 오늘 날짜 추가
-// -----------------------------
-const footer = document.querySelector("footer p");
-if (footer) {
-  const today = new Date();
-  const dateString = `${today.getFullYear()}-${today.getMonth() + 1}-${today.getDate()}`;
-  footer.textContent += ` | 오늘 날짜: ${dateString}`;
-}
 
