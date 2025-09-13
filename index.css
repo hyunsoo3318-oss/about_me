@@ -95,6 +95,27 @@ section h2 {
   font-weight: 600;
 }
 
+/* 기술스택 아이콘 크기 고정 */
+#skills ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+#skills li {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 0.8rem;
+}
+
+#skills li img {
+  width: 32px;     /* 크기 강제 고정 */
+  height: 32px;
+  object-fit: contain;
+  display: block;  /* 깨진 이미지 공간 방지 */
+  flex: 0 0 32px;
+}
 
 /* 취미 */
 #hobbies ul {
