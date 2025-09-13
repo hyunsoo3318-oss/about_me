@@ -110,8 +110,8 @@ section h2 {
 }
 
 #skills li img {
-  width: 32px;     /* 크기 강제 고정 */
-  height: 32px;
+  width: 100px;     /* 크기 강제 고정 */
+  height: 200px;
   object-fit: contain;
   display: block;  /* 깨진 이미지 공간 방지 */
   flex: 0 0 32px;
