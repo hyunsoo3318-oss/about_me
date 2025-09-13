@@ -62,13 +62,5 @@ $$("#skills li").forEach(li => {
   });
 });
 
-// 5) Footer에 오늘 날짜 추가
-const footerP = $("footer p");
-if (footerP) {
-  const d = new Date();
-  const mm = String(d.getMonth() + 1).padStart(2, "0");
-  const dd = String(d.getDate()).padStart(2, "0");
-  footerP.textContent += ` | 오늘 날짜: ${d.getFullYear()}-${mm}-${dd}`;
-}
 
 
